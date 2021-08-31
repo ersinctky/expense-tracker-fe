@@ -4,14 +4,14 @@ import userReducer from './reducers/userReducer';
 
 export interface AppState {
     user: UserState;
-    categories: any;
-    records: any;
+    // categories: any;
+    // records: any;
   }
 
 const rootReducer = combineReducers<AppState>({
     user: userReducer,
-    categories: ()=>{},
-    records: ()=>{},
+    // categories: ()=>{},
+    // records: ()=>{},
   });
 
 
